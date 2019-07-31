@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 
 const [,, ...args] = process.argv
-console.log(`Hello ${args})
+console.log(`Hello ${args}`)
