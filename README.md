@@ -25,67 +25,58 @@ clean | It will truncate all tasks
 save | It will save all tasks in text file
 
 ### Examples
+
+- It will add `lorem ipsum` as a pending task.
 ```
 todos add lorem ipsum
 ```
-It will add `lorem ipsum` as a pending task.
 
-
+- It will update the status of `lorem ipsum` from pending to completed.
 ```
 todos update lorem ipsum
 ```
-It will update the status of `lorem ipsum` from pending to completed.
 
-
+- It will list all tasks with their status.
 ```
 todos
 ```
-It will list all tasks with their status.
 
-
+- It will list all pending tasks.
 ```
 todos pending
 ```
-It will list all pending tasks.
 
-
+- It will list all completed tasks.
 ```
 todos completed
 ```
-It will list all completed tasks.
 
-
+- It will delete all tasks.
 ```
 todos clean
 ```
-It will delete all tasks.
 
-
+- It will delete all pending tasks.
 ```
 todos clean pending
 ```
-It will delete all pending tasks.
 
-
+- It will delete all completed tasks.
 ```
 todos clean completed
 ```
-It will delete all completed tasks.
 
-
+- It will save all tasks and the their status in a text file. You can change the name of output file by adding custom filename after this command.
 ```
 todos save
 ```
-It will save all tasks and the their status in a text file. You can change the name of output file by adding custom filename after this command.
 
-
+- It will save all pending tasks in a text file. You can change the name of output file by adding custom filename after this command.
 ```
 todos save pending
 ```
-It will save all pending tasks in a text file. You can change the name of output file by adding custom filename after this command.
 
-
+- It will save all completed tasks in a text file. You can change the name of output file by adding custom filename after this command.
 ```
 todos save completed
 ```
-It will save all completed tasks in a text file. You can change the name of output file by adding custom filename after this command.
