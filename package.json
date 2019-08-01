@@ -1,13 +1,22 @@
 {
-  "name": "todos",
-  "version": "1.0.0",
+  "name": "todos-manager",
+  "version": "1.1.0",
   "description": "CLI to manage todos",
+  "repository": "SatyamSetia/todos-manager",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Satyam Setia",
   "license": "ISC",
+  "keywords": [
+    "todos",
+    "cli",
+    "manage",
+    "schedule",
+    "npm",
+    "javascript"
+  ],
   "bin": {
     "todos": "./cli.js"
   },
