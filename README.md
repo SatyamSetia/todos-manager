@@ -30,50 +30,60 @@ todos add lorem ipsum
 ```
 It will add `lorem ipsum` as a pending task.
 
+
 ```
 todos update lorem ipsum
 ```
 It will update the status of `lorem ipsum` from pending to completed.
+
 
 ```
 todos
 ```
 It will list all tasks with their status.
 
+
 ```
 todos pending
 ```
 It will list all pending tasks.
+
 
 ```
 todos completed
 ```
 It will list all completed tasks.
 
+
 ```
 todos clean
 ```
 It will delete all tasks.
+
 
 ```
 todos clean pending
 ```
 It will delete all pending tasks.
 
+
 ```
 todos clean completed
 ```
 It will delete all completed tasks.
+
 
 ```
 todos save
 ```
 It will save all tasks and the their status in a text file. You can change the name of output file by adding custom filename after this command.
 
+
 ```
 todos save pending
 ```
 It will save all pending tasks in a text file. You can change the name of output file by adding custom filename after this command.
+
 
 ```
 todos save completed
