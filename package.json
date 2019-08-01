@@ -10,5 +10,8 @@
   "license": "ISC",
   "bin": {
     "todos": "./cli.js"
+  },
+  "dependencies": {
+    "easy-table": "^1.1.1"
   }
 }
