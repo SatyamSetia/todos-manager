@@ -1,4 +1,4 @@
-# todo-manager
+# todos-manager
 
 todos-manager is a package that can be used for managing tasks using CLI. Easily add, delete, update and list your tasks. It can also save tasks as text file in current directory.
 
